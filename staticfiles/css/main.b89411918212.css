@@ -1,0 +1,24 @@
+body {
+  width: 100%;
+  height: 100%;
+}
+.container {
+  background-color: lightcyan;
+
+  height: 100vh;
+}
+#mysql,
+#mysqlLike,
+#mongoDB,
+#elasticSearch,
+#elasticSearchDirect {
+  background-color: rgb(255, 255, 255);
+}
+
+#resultBody {
+  background-color: rgb(255, 255, 255);
+  height: 75vh;
+  width: 99%;
+  margin-left: auto;
+  margin-right: auto;
+}
