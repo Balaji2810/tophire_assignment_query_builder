@@ -10,3 +10,4 @@ pytz
 sqlparse
 tzdata
 zipp
+gunicorn
