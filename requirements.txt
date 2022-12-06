@@ -11,3 +11,4 @@ sqlparse
 tzdata
 zipp
 gunicorn
+whitenoise
