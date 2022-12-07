@@ -1,1 +1,1 @@
-web: gunicorn tophire.wsgi
+web: gunicorn tophire.wsgi:application
