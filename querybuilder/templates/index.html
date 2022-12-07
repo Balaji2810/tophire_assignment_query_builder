@@ -17,11 +17,31 @@
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <h1>Query Builder</h1>
+          <div class="row">
+            <div class="col-11"><h1>Query Builder</h1></div>
+            <div class="col-1">
+              <a
+                class="btn btn-primary download"
+                type="button"
+                href="{% static 'files/QueryBuilder.py' %}"
+                download
+              >
+                Download
+              </a>
+            </div>
+          </div>
           <p>
             The Query Builder (aka Query Generator) is a one-stop solution to
             generate queries to different databases. It has more potential to
             grow big. currently, the table/index is hard coded.
+          </p>
+          <p>
+            The input to the program can be any combination of search terms
+            combined with AND or OR logical operators. To identify logical
+            operators in the input they must alway be capitalized. Input to
+            search candidates can be in the following manner. It will also
+            support multi-word search. Multi-words in the input must be enclosed
+            in single or double quotes. Below are some examples.
           </p>
           <p>
             Consider the following table/index as a reference to generate mySQL,
